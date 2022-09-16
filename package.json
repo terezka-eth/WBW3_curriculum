@@ -1,0 +1,28 @@
+{
+  "name": "wbw3_curriculum",
+  "version": "1.0.0",
+  "description": "The project created as a part of the WBW3 cohort curriculum.",
+  "main": "index.js",
+  "scripts": {
+    "script": "node scripts/run.js",
+    "deploy": "npx hardhat run scripts/deploy.js --network mumbai",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terezka-eth/WBW3_curriculum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terezka-eth/WBW3_curriculum/issues"
+  },
+  "homepage": "https://github.com/terezka-eth/WBW3_curriculum#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "hardhat": "^2.11.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2"
+  }
+}
